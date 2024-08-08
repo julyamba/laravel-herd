@@ -18,6 +18,7 @@ Route::get('/jobs/{id}', function ($id) {
     if (!$job) {
         abort(404);
     }
+    // dd($job->employer->name);
     return view('job', ['job' => $job]);
 });
 

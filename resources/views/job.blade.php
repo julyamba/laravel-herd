@@ -3,5 +3,6 @@
 
     <p class="text-lg font-bold">{{ $job['title'] }}</p>
     <p class="text-gray-500 text-md italic">Salary : {{ $job['salary'] }} per year</p>
+    <p class="text-gray-500 text-md italic">Employer : {{ $job['employer'] }}</p>
     
 </x-layout>
